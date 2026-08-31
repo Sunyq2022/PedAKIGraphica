@@ -8,11 +8,12 @@
 :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2e; --line:#263953; --text:#e9f1fb; --muted:#a9bad0; --accent:#69b7ff; }
 * { box-sizing:border-box; }
 body { margin:0; font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--text); }
-header { padding:22px 28px 16px; border-bottom:1px solid var(--line); background:#0e1828; }
-h1 { margin:0 0 5px; font-size:clamp(20px,3vw,30px); }
+header { padding:14px 22px 12px; border-bottom:1px solid var(--line); background:#0e1828; }
+header > * { max-width:1280px; margin-left:auto; margin-right:auto; }
+h1 { margin:0 0 2px; font-size:clamp(19px,2.5vw,27px); }
 h2 { font-size:16px; margin:0 0 10px; }
 p { margin:5px 0; color:var(--muted); }
-.notice { margin-top:12px; padding:10px 12px; border-left:3px solid #f2b84b; background:#1b2330; color:#f6dfaa; }
+.notice { margin-top:8px; padding:7px 10px; border-left:3px solid #f2b84b; background:#1b2330; color:#f6dfaa; font-size:12px; }
 .layout { display:grid; grid-template-columns:minmax(250px,310px) 1fr minmax(250px,320px); gap:12px; padding:12px; min-height:calc(100vh - 130px); }
 .panel { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; min-width:0; }
 label { display:block; color:var(--muted); margin:10px 0 4px; }
@@ -42,13 +43,13 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
 .detail dd { margin:2px 0 0; overflow-wrap:anywhere; }
 .small { font-size:12px; color:var(--muted); }
 .footer { padding:0 28px 16px; color:var(--muted); font-size:12px; }
-.title-row { display:flex; align-items:center; gap:14px; margin-bottom:5px; }
+.title-row { display:flex; align-items:center; gap:11px; margin-bottom:3px; }
 .brand-lockup { display:flex; align-items:center; flex:0 0 auto; }
-.brand-mark { width:54px; height:54px; flex:0 0 auto; filter:drop-shadow(0 4px 12px #0005); }
+.brand-mark { width:44px; height:44px; flex:0 0 auto; filter:drop-shadow(0 3px 9px #0005); }
 .title-copy { min-width:0; }
-.brand-kicker { margin-bottom:1px; color:var(--accent); font-size:11px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; }
-.brand-sub { margin-top:4px; color:var(--muted); font-size:12px; }
-.brand-cn { margin-top:2px; color:#8fa9c4; font-size:11px; }
+.brand-kicker { margin-bottom:1px; color:var(--accent); font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.brand-sub { margin-top:2px; color:var(--muted); font-size:11px; }
+.brand-cn { margin-top:1px; color:#8fa9c4; font-size:10px; }
 .identity-card { margin-top:16px; padding:10px; border:1px solid #315070; border-radius:7px; background:#0d1a2b; }
 .identity-badges { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:7px; }
 .identity-badge { display:inline-block; padding:3px 7px; border-radius:999px; border:1px solid #4d739c; color:#cfe7ff; font-size:11px; font-weight:700; letter-spacing:.04em; }
