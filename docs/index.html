@@ -43,13 +43,14 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
 .detail dd { margin:2px 0 0; overflow-wrap:anywhere; }
 .small { font-size:12px; color:var(--muted); }
 .footer { padding:0 28px 16px; color:var(--muted); font-size:12px; }
-.title-row { display:flex; align-items:center; gap:11px; margin-bottom:1px; }
+.brand-row { display:flex; align-items:center; gap:10px; min-height:44px; }
 .brand-lockup { display:flex; align-items:center; flex:0 0 auto; }
 .brand-mark { width:44px; height:44px; flex:0 0 auto; filter:drop-shadow(0 3px 9px #0005); }
-.title-copy { min-width:0; }
+.brand-copy { min-width:0; }
 .brand-kicker { margin-bottom:1px; color:var(--accent); font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
 .brand-sub { margin-top:0; color:var(--muted); font-size:11px; line-height:1.25; }
 .brand-cn { margin-top:0; color:#8fa9c4; font-size:10px; line-height:1.2; }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .identity-card { margin-top:16px; padding:10px; border:1px solid #315070; border-radius:7px; background:#0d1a2b; }
 .identity-badges { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:7px; }
 .identity-badge { display:inline-block; padding:3px 7px; border-radius:999px; border:1px solid #4d739c; color:#cfe7ff; font-size:11px; font-weight:700; letter-spacing:.04em; }
@@ -60,7 +61,7 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
 </head>
 <body>
 <header>
-  <div class="title-row">
+  <div class="brand-row">
     <div class="brand-lockup" aria-label="NCH-CHDS team identity">
       <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="brand-title brand-desc">
         <title id="brand-title">NCH-CHDS connected-node emblem</title>
@@ -72,14 +73,13 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
         <circle cx="47" cy="39" r="6" fill="#f2b84b" stroke="#e9f1fb" stroke-width="1.5"/>
       </svg>
     </div>
-    <div class="title-copy">
+    <div class="brand-copy">
       <div class="brand-kicker">NCH-CHDS · EVID-KG</div>
-      <h1>PedAKIGraphica knowledge graph</h1>
-      <p id="subtitle">Loading public graph payload…</p>
+      <div class="brand-sub">Children’s Health Data Science Team · Children’s Hospital of Nanjing Medical University</div>
+      <div class="brand-cn" lang="zh-CN">南京医科大学附属儿童医院儿童健康数据科学团队</div>
     </div>
   </div>
-  <div class="brand-sub">Children’s Health Data Science Team · Children’s Hospital of Nanjing Medical University</div>
-  <div class="brand-cn" lang="zh-CN">南京医科大学附属儿童医院儿童健康数据科学团队</div>
+  <span id="subtitle" class="sr-only">Loading public graph payload…</span>
   <div class="notice">Review-adjudicated intermediate construction graph. This browser is for evidence navigation and reproducibility; it is not a clinically validated knowledge base or a causal model.</div>
 </header>
 <main class="layout">
