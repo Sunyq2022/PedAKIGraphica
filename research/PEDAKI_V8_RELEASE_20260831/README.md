@@ -25,7 +25,7 @@ From the repository root:
 python research/PEDAKI_V8_RELEASE_20260831/build_public_graph.py
 ```
 
-The script converts `data/relations_public.csv` into `docs/v8/graph.json` using only the Python standard library.
+The script converts `data/relations_public.csv` into `docs/graph.json` using only the Python standard library.
 
 ## Included files
 
