@@ -4,8 +4,8 @@ This directory is the public, source-linked release for the PedAKI-Graphica V8 c
 
 ## Interactive knowledge-graph browser
 
-The browser is served from `docs/v8/index.html` and uses only local static assets. After GitHub Pages is enabled, the
-stable entry point will be the repository Pages URL ending in `/v8/`.
+The browser is served from `docs/index.html` and uses only local static assets. The stable entry point is the repository
+Pages root URL.
 
 ## Scope and boundary
 
@@ -32,9 +32,9 @@ The script converts `data/relations_public.csv` into `docs/v8/graph.json` using 
 - `data/relations_public.csv`: public relation metadata without evidence-window text.
 - `data/release_metadata.json`: release counts, source boundary, and checksums.
 - `build_public_graph.py`: deterministic graph-data builder.
-- `docs/v8/index.html`: self-contained interactive browser.
-- `docs/v8/graph.json`: browser data generated from the public relation table.
-- `docs/v8/static_network.svg`: static fallback network figure from the V8 visual output.
+- `docs/index.html`: self-contained interactive browser.
+- `docs/graph.json`: browser data generated from the public relation table.
+- `docs/knowledge_graph_static.svg`: static fallback network figure from the current visual output.
 
 ## Licensing
 
