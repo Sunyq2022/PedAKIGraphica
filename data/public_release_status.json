@@ -1,0 +1,15 @@
+{
+  "release": "current publication release",
+  "graph_scope": "review-adjudicated construction graph",
+  "construction_relations": 225,
+  "entities": 34,
+  "predicates": 10,
+  "claim_level_traceability_rows": 18851,
+  "heldout_relations_kept_in_isolation": 136,
+  "formal_graph_rag_contrast_released": false,
+  "verified_relation_freeze": false,
+  "clinical_validation_claimed": false,
+  "patient_level_data": false,
+  "full_text_redistribution": false,
+  "release_boundary": "machine-adjudicated intermediate evidence-resource graph"
+}

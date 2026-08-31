@@ -1,0 +1,17 @@
+{
+  "release": "PedAKI-Graphica V8 public review-adjudicated intermediate graph",
+  "release_date": "2026-08-31",
+  "graph_scope": "construction graph only",
+  "relations": 225,
+  "entities": 34,
+  "predicates": 10,
+  "verified_v8_relations": 0,
+  "named_expert_signed_validation": false,
+  "clinical_validation": false,
+  "patient_level_data": false,
+  "full_text_redistribution": false,
+  "source_relation_file": "04_results/07_review_adjudicated_freeze/03_V8_REVIEW_ADJUDICATED_CONSTRUCTION_GRAPH.csv",
+  "public_relation_file": "data/relations_public.csv",
+  "browser_payload": "docs/v8/graph.json",
+  "rebuild_command": "python research/PEDAKI_V8_RELEASE_20260831/build_public_graph.py"
+}

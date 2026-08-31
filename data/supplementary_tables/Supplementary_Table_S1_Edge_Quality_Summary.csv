@@ -1,0 +1,9 @@
+﻿quality_flag,relations,percentage
+No explicit pediatric/neonatal scope,143,63.55555555555556
+Broad association predicate,117,52.0
+Single-source support,42,18.666666666666668
+Confidence <0.90,29,12.88888888888889
+Symmetric orientation duplicate,22,9.777777777777779
+Directional reverse conflict,10,4.444444444444445
+Adult-only scope,6,2.6666666666666665
+Normative guideline relation,6,2.6666666666666665

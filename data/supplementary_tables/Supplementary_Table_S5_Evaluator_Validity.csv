@@ -1,0 +1,4 @@
+﻿judge_model,locked_audit_rows,json_parse_rate,macro_f1,contradiction_sensitivity,format_pair_consistency,quality_gate_pass
+deepseek-r1:32b,66,1.0,0.6676716141001855,1.0,1.0,False
+glm-4.7-flash:q4_K_M,66,1.0,0.5526223776223775,0.5294117647058824,1.0,False
+qwen3:32b,66,1.0,0.953577441077441,0.8823529411764706,1.0,False

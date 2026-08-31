@@ -1,0 +1,14 @@
+# Tested publication-build environment on Windows 11, 2026-08-30
+pandas==3.0.5
+numpy==2.5.1
+networkx==3.6.1
+matplotlib==3.10.8
+seaborn==0.13.2
+Pillow==12.1.0
+PyMuPDF==1.27.2.2
+python-docx==1.2.0
+pywin32==311
+lxml==6.1.1
+sentence-transformers==5.6.0
+paramiko==5.0.0
+psutil==7.2.2
