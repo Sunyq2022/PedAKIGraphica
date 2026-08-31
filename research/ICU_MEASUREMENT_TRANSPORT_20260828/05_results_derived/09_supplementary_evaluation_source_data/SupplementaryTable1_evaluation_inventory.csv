@@ -1,0 +1,23 @@
+evaluation_id,evaluation_module,analysis_class,authoritative_source
+1,Six-direction demographic baseline,external,external_results.csv
+2,Six-direction concept XGBoost,external,external_results.csv
+3,Six-direction random-embedding transformer,external,external_results.csv
+4,Six-direction semantic transformer,external,external_results.csv
+5,Primary two-source LODO to eICU,external,lodo_results.csv
+6,Reciprocal LODO targeting MIMIC-III,sensitivity,lodo_results.csv
+7,Reciprocal LODO targeting MIMIC-IV,sensitivity,lodo_results.csv
+8,Patient-cluster uncertainty,uncertainty,patient_cluster_bootstrap.csv
+9,eICU hospital-cluster uncertainty,uncertainty,hospital_cluster_bootstrap.csv
+10,Target-domain adaptation,secondary,target_adaptation_results.csv
+11,Exact-code support stress test,secondary,coding_stress_results.csv
+12,Concept-positive versus concept-empty strata,secondary,concept_availability_results.csv
+13,Nested source sample-size analysis,secondary,sample_size_curves.csv
+14,Concept zero-occlusion attribution,exploratory,concept_importance.csv
+15,Precise-time semantic sensitivity,prespecified sensitivity,04_semantic_sensitivity_precise_time
+16,Medication-only semantic sensitivity,prespecified sensitivity,05_semantic_sensitivity_medication_only
+17,Label-proximal exclusion sensitivity,post-hoc sensitivity,06_semantic_sensitivity_label_proximal_excluded
+18,Six-direction KDIGO lookup,physiological state,corrected_external_results.csv
+19,Six-direction state logistic regression,physiological state,corrected_external_results.csv
+20,Six-direction state XGBoost,physiological state,corrected_external_results.csv
+21,Source-only calibration and thresholds,calibration,corrected_calibration_bins.csv
+22,Physiological feature-group ablations,mechanism,corrected_ablation_results.csv

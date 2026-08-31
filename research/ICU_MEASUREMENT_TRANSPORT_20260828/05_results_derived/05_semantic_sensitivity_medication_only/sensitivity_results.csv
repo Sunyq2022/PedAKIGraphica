@@ -1,0 +1,21 @@
+mode,mode_class,source_database,target_database,model,endpoint,n,event_rate,auroc,average_precision,brier
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,demographic,next_aki_progression,18776,0.10827652322113336,0.5080965626030909,0.11022476883728997,0.0984971895813942
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,demographic,next_aki_stage2plus,18776,0.44194716659565403,0.5269573819488236,0.46284608563477103,0.27251681685447693
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,demographic,next_aki_stage3,18776,0.1572219855134214,0.543800979987176,0.1736551807279341,0.14412946999073029
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,demographic,hospital_death,18776,0.12457392415850022,0.5889069808641143,0.15734538311844506,0.10806354135274887
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,demographic,icu_death,18774,0.07750079897730905,0.5578362678575007,0.09025884497012485,0.07148023694753647
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,xgboost,next_aki_progression,18776,0.10827652322113336,0.5263580504192911,0.11384747163005889,0.2550294575148664
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,xgboost,next_aki_stage2plus,18776,0.44194716659565403,0.5292342260713964,0.4647220127653157,0.25215775174562427
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,xgboost,next_aki_stage3,18776,0.1572219855134214,0.5540085268063879,0.17784518657144363,0.23709595301088437
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,xgboost,hospital_death,18776,0.12457392415850022,0.5876857530285938,0.1564485831834904,0.2146855125527187
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,xgboost,icu_death,18774,0.07750079897730905,0.5578587884628626,0.0899535526743014,0.21185400863061268
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,random_transformer,next_aki_progression,18776,0.10827652322113336,0.523039016474248,0.11611394461731775,0.09986069798469543
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,random_transformer,next_aki_stage2plus,18776,0.44194716659565403,0.5256827007209174,0.46278260481148636,0.26742807030677795
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,random_transformer,next_aki_stage3,18776,0.1572219855134214,0.5486828906932902,0.17638142908085053,0.14638890326023102
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,random_transformer,hospital_death,18776,0.12457392415850022,0.587832464754657,0.1567847235379982,0.10829240828752518
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,random_transformer,icu_death,18774,0.07750079897730905,0.5585041476605654,0.091389449167302,0.07132131606340408
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,semantic_transformer,next_aki_progression,18776,0.10827652322113336,0.5285136964977823,0.12356387706779126,0.09789401292800903
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,semantic_transformer,next_aki_stage2plus,18776,0.44194716659565403,0.5058268052917725,0.4508101621187543,0.27701765298843384
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,semantic_transformer,next_aki_stage3,18776,0.1572219855134214,0.5371558990014824,0.18699588932244104,0.1436571627855301
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,semantic_transformer,hospital_death,18776,0.12457392415850022,0.635570517437861,0.2075912673955228,0.10622275620698929
+medication_only,prespecified conservative timing sensitivity,MIMIC-III + MIMIC-IV,eICU,semantic_transformer,icu_death,18774,0.07750079897730905,0.6264946687675315,0.14551896889621357,0.06976357102394104

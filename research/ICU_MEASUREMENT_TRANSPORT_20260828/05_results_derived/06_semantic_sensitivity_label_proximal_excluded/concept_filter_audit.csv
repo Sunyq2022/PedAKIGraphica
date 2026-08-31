@@ -1,0 +1,4 @@
+mode,mode_class,database,episodes,episodes_with_concepts,episode_concept_coverage,retained_unique_descriptions,retained_concept_events,all_first_window_concept_events,filtered_concept_events,concept_events_removed,episodes_affected_by_filter
+label_proximal_excluded,post-hoc label-proximity sensitivity,MIMIC-III,20108,3323,0.16525760891187588,2364,42263,42499,42263,236,139
+label_proximal_excluded,post-hoc label-proximity sensitivity,MIMIC-IV,29267,20195,0.690026309495336,5173,144542,145244,144542,702,463
+label_proximal_excluded,post-hoc label-proximity sensitivity,eICU,18776,9292,0.49488708990200253,4345,70257,70522,70257,265,217

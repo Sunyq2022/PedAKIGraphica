@@ -1,0 +1,45 @@
+{
+  "status": "RECONSTRUCTED_FROM_VERIFIED_AGGREGATE_AUDIT",
+  "original_pre_cleanup_sha256_not_preserved": "38ca641131c8c6607fceecfe432f4c562fc9d5f0f8e92abf7a0d9d5d479a98e9",
+  "cohort": {
+    "eicu_stays": 18776,
+    "transition_rows": 96199,
+    "window_definition": "first-AKI-relative four-hour windows, (start, end]"
+  },
+  "blood_pressure": {
+    "current_source": "vitalPeriodic.systemic*",
+    "omitted_source": "vitalAperiodic.noninvasive*",
+    "raw_aperiodic_rows_in_cohort": 3301122,
+    "sbp": {"current_missing": 0.7421386916703916, "alternative_missing": 0.11964781338683354, "combined_missing": 0.014521980477967546, "rows_rescued": 69996},
+    "dbp": {"current_missing": 0.7421386916703916, "alternative_missing": 0.11964781338683354, "combined_missing": 0.014521980477967546, "rows_rescued": 69996},
+    "map": {"current_missing": 0.7411199700620589, "alternative_missing": 0.1195438622023098, "combined_missing": 0.014490795122610423, "rows_rescued": 69901}
+  },
+  "temperature": {
+    "current_source": "vitalPeriodic.temperature",
+    "omitted_source": "nurseCharting Temperature (C/F)",
+    "raw_temperature_value_rows_in_cohort": 1676028,
+    "valid_temperature_rows": 1673770,
+    "current_missing": 0.9187933346500483,
+    "alternative_missing": 0.12441917275647356,
+    "combined_missing": 0.11781827253921559,
+    "rows_rescued": 77053,
+    "median_absolute_difference_c_when_both": 0.04236111111111285,
+    "p95_absolute_difference_c_when_both": 0.9982488738738692
+  },
+  "creatinine": {
+    "source": "lab.csv.gz labname=creatinine",
+    "raw_rows_in_cohort": 168019,
+    "valid_physiologic_rows": 167728,
+    "current_missing": 0.7463798999989605,
+    "raw_same_window_missing": 0.74642148047277,
+    "raw_present_transition_missing": 0,
+    "transition_present_raw_missing": 4,
+    "interpretation": "predominantly no new measurement in the four-hour window, not extraction loss"
+  },
+  "impact": {
+    "clinical_state_benchmark_eicu_status": "PROVISIONAL_PENDING_CORRECTED_ETL_RERUN",
+    "locked_semantic_results_affected": false,
+    "manuscript_use_allowed": false
+  },
+  "source_document": "../../01_documents/06_eicu_state_extraction_audit.md"
+}

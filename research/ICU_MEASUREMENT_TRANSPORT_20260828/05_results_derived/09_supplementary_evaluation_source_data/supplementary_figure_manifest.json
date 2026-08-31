@@ -1,0 +1,47 @@
+{
+  "status": "SUPPLEMENTARY_EVALUATION_FIGURES_COMPLETE",
+  "created_at_utc": "2026-08-31T06:45:31.150721+00:00",
+  "model_fitting_performed": false,
+  "patient_level_data_read": false,
+  "figures_preserved": "Figures 1-8 unchanged",
+  "figure_outputs_sha256": {
+    "SupplementaryFigure1_semantic_transport_heatmaps.pdf": "43292ff83ff0a62c00ee92cec2d3df6929b3c10710a0aa867c890632545e3256",
+    "SupplementaryFigure1_semantic_transport_heatmaps.png": "448a003f64a5daaaf650acc773120208a6bb95c2231e0353ead376fb44e22788",
+    "SupplementaryFigure2_state_transport_heatmaps.pdf": "e1a94783bce6f43223eb2f7fab7ffd6ef4b481512265f39eb0b2edd3f165e3b8",
+    "SupplementaryFigure2_state_transport_heatmaps.png": "b4d71741a44e73ed6702f1365572387eb988fdf4576fce2e2fd76db407330b3a",
+    "SupplementaryFigure3_common_endpoint_forest.pdf": "6417246f0da701746fe3aca72ec60fa8ae8a45ab327e81066fa55cbeddc261a2",
+    "SupplementaryFigure3_common_endpoint_forest.png": "5e18f07c736c75aa9a24350df6021a498d73769a94d4e25d98302638c487da59",
+    "SupplementaryFigure4_primary_lodo_metric_matrix.pdf": "20cc463a1133cc1249bcc74dc272665930f4d99c39865c04daabcdc9aa559f02",
+    "SupplementaryFigure4_primary_lodo_metric_matrix.png": "34e255e4cac1704a3fdd6caa628def1fbbe410abc04992b41e9e4cb761df345b",
+    "SupplementaryFigure5_semantic_sensitivity_forest.pdf": "951cfc1f44fda95a0171b417570eae25f409c55a9f1fd72e24051c777a76fd9c",
+    "SupplementaryFigure5_semantic_sensitivity_forest.png": "a12c8564c53ad3863b0d3dbe85991f17c72c6c970c117f02f2c2c67fc1d616d5",
+    "SupplementaryFigure6_creatinine_observability.pdf": "ef24f97bf20b59bb7dff25441d4813e62b5b45d9dfd2d2635c9758b548761fbb",
+    "SupplementaryFigure6_creatinine_observability.png": "fa66cd3c42beb5ff367be977ba1faef607f9d93a92a816f918620db921e34138"
+  },
+  "source_data_sha256": {
+    "SupplementaryFigure1_semantic_transport_heatmaps_source_data.csv": "5043a93b087b49e72f7a923680fa0b8bc882447d0d65bd37dacb49f6472d4442",
+    "SupplementaryFigure2_state_transport_heatmaps_source_data.csv": "3e4fb4570b29b417ae597b57172a5117dea19e25e2d9f383b12e2d9da6afa5fd",
+    "SupplementaryFigure3_common_endpoint_forest_source_data.csv": "0b07026179207538dd9b48d49ef50fbd8d40f7090da3e87f26f8a3b7e482e8c7",
+    "SupplementaryFigure4_primary_lodo_metric_matrix_source_data.csv": "342857b5dcb8cc529ae120b74d451458229f99ca53623f6024cf02399a99a334",
+    "SupplementaryFigure5_semantic_sensitivity_forest_source_data.csv": "5800c300d245b470b34e24a2c8c360e59d6a6b6465fba55fd5ffe65853547663",
+    "SupplementaryFigure6_creatinine_observability_source_data.csv": "a14f01116accb6cb49afa49c3713468195d51b69c7d5695d0140cd18029cac5b",
+    "SupplementaryTable1_evaluation_inventory.csv": "662c6ddaf4ca83a3ce666cbff797aa60c67ec39933468b6942b45cea94475591",
+    "SupplementaryTable2_eicu_state_model_evaluation.csv": "0b40c85824e1e3ce6769261768ea20cfdd9bf81ae40acc4a2ba005434159152e",
+    "SupplementaryTable3_primary_lodo_model_evaluation.csv": "a5715e6b50364f30bf63ca2e948013cbcfc1a4cc968032bbd62876560b5f2d49"
+  },
+  "input_sha256": {
+    "external_results.csv": "8d2f4b8d35f3292949597ce834d8d5c95f07451a3f578dd4baed10b4345bb11e",
+    "lodo_results.csv": "fd148d1d555cd2f17403c37d9a47244a6077dd711139f2f1f4b1a3ac67bc1386",
+    "hospital_cluster_bootstrap.csv": "170964f5af11db092f2192b2b9f0b46db92b93ed99c2bde6233fff465b86a5f3",
+    "corrected_external_results.csv": "ff77fa0268567bd45dca95fda55e1917b03afc0f7a553c9eb5c9cb8cee03a4bf",
+    "corrected_hospital_bootstrap.csv": "c159080cfeb42eed76a69d75462c9dfb276f69e3de01229525fe3a570cb9b972",
+    "semantic_sensitivity_summary.csv": "853688bb06786198d51450a5f9a64ceea55ee55d0b73af81c1cda79388b52018",
+    "creatinine_observability_by_lookback.csv": "cca9862b1da67d7975b440cf7a31ad0663616bb918caef9251078e207e2e0e42"
+  },
+  "script_sha256": "2e0e5ec7a36474328e81b70aaabd2f970b97c86d87786e4bc5fdf66ae3ad67d9",
+  "interpretation_boundary": [
+    "descriptive visualization of existing locked or audited aggregate results",
+    "no model selection, refitting, target adaptation, or new hypothesis testing",
+    "endpoint definitions for stage thresholds and onset risk sets are kept separate"
+  ]
+}

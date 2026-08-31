@@ -1,0 +1,11 @@
+# Restricted or row-level inputs must never enter this public release.
+03_data/
+raw/
+private/
+*.csv.gz
+*gold.csv
+*gold.csv.gz
+*transitions.csv
+*transitions.csv.gz
+*prediction*.csv
+*prediction*.csv.gz
