@@ -1,11 +1,12 @@
 # NCH-CHDS local vector identity set
 
-These SVG files are local, editable vector assets for the Children’s Health Data Science Team,
-Children’s Hospital of Nanjing Medical University.
+`nch-chds-approved-imagegen.png` is the approved image-generation master. The SVG files are local,
+editable lockups for the Children’s Health Data Science Team, Children’s Hospital of Nanjing Medical
+University; they preserve the approved image as a local embedded asset and add editable text where needed.
 
-- `nch-chds-icon.svg`: standalone child-health and connected-data emblem.
-- `nch-chds-abbreviation.svg`: emblem with the compact mark `NCH-CHDS`.
-- `nch-chds-full-name.svg`: emblem with the full English team and institution name.
+- `nch-chds-icon.svg`: standalone approved child-health and connected-data emblem.
+- `nch-chds-abbreviation.svg`: approved emblem with the compact mark `NCH-CHDS`.
+- `nch-chds-full-name.svg`: approved emblem with the full English team and institution name.
 
 The redesigned emblem uses a restrained “child-health constellation” concept: three connected
 points represent data and evidence relationships, while the minimal head-and-shoulders form

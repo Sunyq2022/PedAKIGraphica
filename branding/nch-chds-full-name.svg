@@ -1,26 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 128" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 144" role="img" aria-labelledby="title desc">
   <title id="title">Children’s Health Data Science Team identity</title>
-  <desc id="desc">A child-health data constellation paired with the full team and institution name.</desc>
-  <defs>
-    <linearGradient id="field" x1="18" y1="14" x2="78" y2="82" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f8fcff"/>
-      <stop offset="1" stop-color="#e8f5f3"/>
-    </linearGradient>
-    <g id="emblem">
-      <circle cx="48" cy="48" r="43" fill="url(#field)" stroke="#17324d" stroke-width="2.5"/>
-      <path d="M24 31 L48 16 L72 31" fill="none" stroke="#277d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M48 16 L48 34 M24 31 L36 39 M72 31 L60 39" fill="none" stroke="#78aeb7" stroke-width="1.6" stroke-linecap="round"/>
-      <circle cx="24" cy="31" r="5" fill="#277d8c"/>
-      <circle cx="48" cy="16" r="5" fill="#17324d"/>
-      <circle cx="72" cy="31" r="5" fill="#d27c64"/>
-      <circle cx="48" cy="47" r="11.5" fill="#fff" stroke="#17324d" stroke-width="2.5"/>
-      <path d="M27 76 C29 64 37 58 48 58 C59 58 67 64 69 76" fill="#dff1ed" stroke="#17324d" stroke-width="2.5" stroke-linecap="round"/>
-      <path d="M48 65.5 C45.3 61.8 40.3 63.1 41 67.1 C41.5 70.2 48 73.2 48 73.2 C48 73.2 54.5 70.2 55 67.1 C55.7 63.1 50.7 61.8 48 65.5 Z" fill="none" stroke="#d27c64" stroke-width="1.8" stroke-linejoin="round"/>
-    </g>
-  </defs>
-  <use href="#emblem" x="8" y="16"/>
+  <desc id="desc">The approved child-health data emblem paired with the full team and institution name.</desc>
+  <image href="nch-chds-approved-imagegen.png" x="0" y="8" width="128" height="128" preserveAspectRatio="xMidYMid meet"/>
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="126" y="53" font-size="26" font-weight="700" fill="#17324d">Children’s Health Data Science Team</text>
-    <text x="126" y="84" font-size="21" fill="#277d8c">Children’s Hospital of Nanjing Medical University</text>
+    <text x="152" y="58" font-size="28" font-weight="700" fill="#17324d">Children’s Health Data Science Team</text>
+    <text x="152" y="91" font-size="22" fill="#277d8c">Children’s Hospital of Nanjing Medical University</text>
   </g>
 </svg>
