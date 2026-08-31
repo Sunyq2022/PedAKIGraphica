@@ -30,19 +30,6 @@ identity mark, not a clinical validation or diagnostic symbol.
 - `code/`: reproducibility and publication scripts for the current release line.
 - `research/PEDAKI_V8_RELEASE_20260831/`: deterministic browser-payload builder.
 
-## Additional research release
-
-The repository also presents the adult ICU measurement and transportability
-study, including public-safe analysis code, aggregate result tables, locked
-figures and reproducibility notes:
-
-- [`research/ICU_MEASUREMENT_TRANSPORT_20260828/`](research/ICU_MEASUREMENT_TRANSPORT_20260828/)
-
-The ICU release excludes patient-level records, raw MIMIC/eICU files,
-restricted data paths and prediction files. Its results are predictive
-transport analyses only and do not establish causal effects, treatment-policy
-value, clinical utility or deployment readiness.
-
 ## Rebuild the browser payload
 
 ```text

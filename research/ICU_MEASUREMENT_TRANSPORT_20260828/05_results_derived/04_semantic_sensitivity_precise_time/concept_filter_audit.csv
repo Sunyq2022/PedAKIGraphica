@@ -1,4 +1,0 @@
-mode,mode_class,database,episodes,episodes_with_concepts,episode_concept_coverage,retained_unique_descriptions,retained_concept_events,all_first_window_concept_events,filtered_concept_events,concept_events_removed,episodes_affected_by_filter
-precise_time,prespecified timing sensitivity,MIMIC-III,20108,0,0.0,0,0,42499,0,42499,3323
-precise_time,prespecified timing sensitivity,MIMIC-IV,29267,19232,0.6571223562374005,1297,124376,145244,124376,20868,2269
-precise_time,prespecified timing sensitivity,eICU,18776,9292,0.49488708990200253,4364,70522,70522,70522,0,0
