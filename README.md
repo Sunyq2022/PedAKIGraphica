@@ -24,6 +24,7 @@ identity mark, not a clinical validation or diagnostic symbol.
 ## Contents
 
 - `docs/`: self-contained GitHub Pages browser at the repository root and a static fallback network figure.
+- `branding/`: local editable SVG identity assets for the team emblem, abbreviation, and full-name lockup.
 - `data/`: public relation metadata, analysis tables, supplementary tables, and current release state.
 - `figures/`: publication and supplementary figure assets for this release.
 - `code/`: reproducibility and publication scripts for the current release line.

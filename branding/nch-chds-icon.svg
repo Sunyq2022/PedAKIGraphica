@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">NCH-CHDS child-health data emblem</title>
+  <desc id="desc">An abstract child-health figure combined with a connected data network.</desc>
+  <rect x="4" y="4" width="88" height="88" rx="24" fill="#102238" stroke="#4b7aa6" stroke-width="3"/>
+  <path d="M25 30 L48 17 L71 30 L48 43 Z" fill="none" stroke="#69b7ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25" cy="30" r="6" fill="#78d6a3" stroke="#e9f1fb" stroke-width="2"/>
+  <circle cx="48" cy="17" r="6" fill="#69b7ff" stroke="#e9f1fb" stroke-width="2"/>
+  <circle cx="71" cy="30" r="6" fill="#f2b84b" stroke="#e9f1fb" stroke-width="2"/>
+  <circle cx="48" cy="50" r="13" fill="none" stroke="#dcecff" stroke-width="3"/>
+  <path d="M25 79 C29 66 38 61 48 61 C58 61 67 66 71 79" fill="none" stroke="#78d6a3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 73 C44 68 37 71 39 76 C41 80 48 84 48 84 C48 84 55 80 57 76 C59 71 52 68 48 73 Z" fill="none" stroke="#f2b84b" stroke-width="2.2" stroke-linejoin="round"/>
+</svg>
