@@ -8,12 +8,11 @@
 :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2e; --line:#263953; --text:#e9f1fb; --muted:#a9bad0; --accent:#69b7ff; }
 * { box-sizing:border-box; }
 body { margin:0; font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--text); }
-header { padding:8px 22px 7px; border-bottom:1px solid var(--line); background:#0e1828; }
-header > * { max-width:1280px; margin-left:auto; margin-right:auto; }
-h1 { margin:0 0 1px; font-size:clamp(19px,2.5vw,27px); line-height:1.15; }
+header { padding:22px 28px 16px; border-bottom:1px solid var(--line); background:#0e1828; }
+h1 { margin:0 0 5px; font-size:clamp(20px,3vw,30px); }
 h2 { font-size:16px; margin:0 0 10px; }
-p { margin:1px 0 0; color:var(--muted); }
-.notice { margin-top:5px; padding:5px 9px; border-left:3px solid #f2b84b; background:#1b2330; color:#f6dfaa; font-size:12px; line-height:1.35; }
+p { margin:5px 0; color:var(--muted); }
+.notice { margin-top:12px; padding:10px 12px; border-left:3px solid #f2b84b; background:#1b2330; color:#f6dfaa; }
 .layout { display:grid; grid-template-columns:minmax(250px,310px) 1fr minmax(250px,320px); gap:12px; padding:12px; min-height:calc(100vh - 130px); }
 .panel { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; min-width:0; }
 label { display:block; color:var(--muted); margin:10px 0 4px; }
@@ -43,51 +42,15 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
 .detail dd { margin:2px 0 0; overflow-wrap:anywhere; }
 .small { font-size:12px; color:var(--muted); }
 .footer { padding:0 28px 16px; color:var(--muted); font-size:12px; }
-.footer .notice { margin:0 0 8px; }
-.brand-row { display:flex; align-items:center; gap:10px; min-height:44px; }
-.brand-lockup { display:flex; align-items:center; flex:0 0 auto; }
-.brand-mark { width:44px; height:44px; flex:0 0 auto; filter:drop-shadow(0 3px 9px #0005); }
-.brand-copy { min-width:0; }
-.brand-title-line { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; line-height:1.1; }
-.brand-kicker { color:var(--accent); font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; white-space:nowrap; }
-.brand-title { margin:0; color:var(--text); font-size:clamp(18px,2.2vw,24px); line-height:1.1; }
-.brand-summary { margin-top:2px; color:var(--muted); font-size:11px; line-height:1.2; }
-.brand-sub { margin-top:1px; color:var(--muted); font-size:10px; line-height:1.15; }
-.brand-cn { margin-top:0; color:#8fa9c4; font-size:9.5px; line-height:1.15; }
-.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-.identity-card { margin-top:16px; padding:10px; border:1px solid #315070; border-radius:7px; background:#0d1a2b; }
-.identity-badges { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:7px; }
-.identity-badge { display:inline-block; padding:3px 7px; border-radius:999px; border:1px solid #4d739c; color:#cfe7ff; font-size:11px; font-weight:700; letter-spacing:.04em; }
-.identity-badge.primary { border-color:#69b7ff; background:#183657; color:#fff; }
 @media (max-width:980px) { .layout { grid-template-columns:240px 1fr; } .detail { grid-column:1/-1; max-height:none; } }
 @media (max-width:680px) { .layout { display:block; } .panel { margin-bottom:12px; } .graph-wrap { min-height:520px; } svg { min-height:520px; } }
 </style>
 </head>
 <body>
 <header>
-  <div class="brand-row">
-    <div class="brand-lockup" aria-label="NCH-CHDS team identity">
-      <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="brand-title brand-desc">
-        <title id="brand-title">NCH-CHDS connected-node emblem</title>
-        <desc id="brand-desc">Three connected nodes represent children’s health, data, and science.</desc>
-        <rect x="3" y="3" width="58" height="58" rx="15" fill="#13243a" stroke="#315070" stroke-width="2"/>
-        <path d="M17 39 L32 19 L47 39 Z" fill="none" stroke="#69b7ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="17" cy="39" r="6" fill="#78d6a3" stroke="#e9f1fb" stroke-width="1.5"/>
-        <circle cx="32" cy="19" r="6" fill="#69b7ff" stroke="#e9f1fb" stroke-width="1.5"/>
-        <circle cx="47" cy="39" r="6" fill="#f2b84b" stroke="#e9f1fb" stroke-width="1.5"/>
-      </svg>
-    </div>
-    <div class="brand-copy">
-      <div class="brand-title-line">
-        <div class="brand-kicker">NCH-CHDS · EVID-KG</div>
-        <h1 class="brand-title">PedAKIGraphica knowledge graph</h1>
-      </div>
-      <div class="brand-summary">PedAKIGraphica public review-adjudicated intermediate graph · 225 construction relations among 34 entities</div>
-      <div class="brand-sub">Children’s Health Data Science Team · Children’s Hospital of Nanjing Medical University</div>
-      <div class="brand-cn" lang="zh-CN">南京医科大学附属儿童医院儿童健康数据科学团队</div>
-    </div>
-  </div>
-  <span id="subtitle" class="sr-only">Loading public graph payload…</span>
+  <h1>PedAKIGraphica knowledge graph</h1>
+  <p id="subtitle">Loading public graph payload…</p>
+  <div class="notice">Review-adjudicated intermediate construction graph. This browser is for evidence navigation and reproducibility; it is not a clinically validated knowledge base or a causal model.</div>
 </header>
 <main class="layout">
   <aside class="panel">
@@ -98,19 +61,12 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
     <button id="reset">Reset view</button>
     <div class="stats"><div class="stat"><b id="nodeCount">–</b>entities</div><div class="stat"><b id="edgeCount">–</b>relations</div></div>
     <p class="small">Click a node to highlight its neighborhood. Click a relation to inspect its provenance metadata. Drag the canvas to pan; use the wheel to zoom.</p>
-    <div class="identity-card" aria-label="Team abbreviation guide">
-      <div class="identity-badges"><span class="identity-badge primary">NCH-CHDS</span><span class="identity-badge">CHDS</span><span class="identity-badge">EVID-KG</span></div>
-      <div class="small"><b>NCH-CHDS</b> is the institutional team mark; <b>CHDS</b> is the compact signature for Children’s Health Data Science; <b>EVID-KG</b> identifies this evidence-graph resource.</div>
-    </div>
     <h2 style="margin-top:18px">Entity types</h2><div id="legend" class="legend"></div>
   </aside>
-  <section class="panel graph-wrap"><div id="tip" class="tip"></div><svg id="graph" role="img" aria-label="Interactive network view of the PedAKIGraphica review-adjudicated construction graph"></svg></section>
+  <section class="panel graph-wrap"><div id="tip" class="tip"></div><svg id="graph" role="img" aria-label="Interactive network view of the PedAKI-Graphica V8 construction graph"></svg></section>
   <aside class="panel detail"><h2>Selection</h2><div id="detail" class="small">Select a node or relation to see its metadata.</div></aside>
 </main>
-<div class="footer">
-  <div class="notice">Review-adjudicated intermediate construction graph. This browser is for evidence navigation and reproducibility; it is not a clinically validated knowledge base or a causal model.</div>
-  Public payload excludes full-text passages and patient-level data. Source identifiers are retained for provenance navigation.
-</div>
+<div class="footer">Public payload excludes full-text passages and patient-level data. Source identifiers are retained for provenance navigation.</div>
 <script>
 const colors={condition:'#68b0f5',measurement:'#f2b84b',therapy:'#e783b7',outcome:'#78d6a3',biomarker:'#b695f2',clinical_context:'#ff8f70',population:'#64d8cb',study:'#c9d36b',entity:'#b7c8da'};
 let data, positions={}, zoom=1, pan={x:0,y:0}, selectedNode=null, selectedEdge=null, drag=null;
