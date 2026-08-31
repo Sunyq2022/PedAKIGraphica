@@ -2,7 +2,7 @@
 
 Public release package for the PedAKI-Graphica computational evidence-resource study.
 
-Interactive knowledge-graph browser: **[open the graph browser](./docs/)**
+Interactive knowledge-graph browser: **[https://sunyq2022.github.io/PedAKIGraphica/](https://sunyq2022.github.io/PedAKIGraphica/)**
 
 The browser presents the 225-relation review-adjudicated construction graph among 34 entities. This is a
 machine-adjudicated intermediate graph; it is not a clinically validated knowledge base, does not represent
