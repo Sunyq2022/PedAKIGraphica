@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 INPUT = Path(__file__).resolve().parent / "data" / "relations_public.csv"
-OUTPUT = ROOT / "docs" / "v8" / "graph.json"
+OUTPUT = ROOT / "docs" / "graph.json"
 
 
 def node_type(identifier: str) -> str:
