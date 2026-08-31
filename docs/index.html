@@ -43,8 +43,7 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
 .detail dt { color:var(--muted); font-size:12px; margin-top:9px; }
 .detail dd { margin:2px 0 0; overflow-wrap:anywhere; }
 .small { font-size:12px; color:var(--muted); }
-.header-brand { display:flex; align-items:center; gap:6px; flex:0 0 auto; color:#a9bad0; font-size:11px; font-weight:700; letter-spacing:.08em; white-space:nowrap; }
-.brand-mark { width:30px; height:30px; display:block; }
+.header-brand { flex:0 0 auto; color:#a9bad0; font-size:11px; font-weight:700; letter-spacing:.08em; white-space:nowrap; }
 .footer { padding:0 28px 16px; color:var(--muted); font-size:12px; }
 @media (max-width:980px) { .layout { grid-template-columns:240px 1fr; } .detail { grid-column:1/-1; max-height:none; } }
 @media (max-width:680px) { .layout { display:block; } .panel { margin-bottom:12px; } .graph-wrap { min-height:520px; } svg { min-height:520px; } }
@@ -58,15 +57,6 @@ svg { width:100%; height:100%; min-height:620px; display:block; background:radia
       <p id="subtitle">Loading public graph payload…</p>
     </div>
     <div class="header-brand" aria-label="NCH-CHDS">
-      <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="brand-title brand-desc">
-        <title id="brand-title">NCH-CHDS connected-node emblem</title>
-        <desc id="brand-desc">Three connected nodes represent the NCH-CHDS team.</desc>
-        <rect x="3" y="3" width="58" height="58" rx="15" fill="#13243a" stroke="#315070" stroke-width="2"/>
-        <path d="M17 39 L32 19 L47 39 Z" fill="none" stroke="#69b7ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="17" cy="39" r="6" fill="#78d6a3" stroke="#e9f1fb" stroke-width="1.5"/>
-        <circle cx="32" cy="19" r="6" fill="#69b7ff" stroke="#e9f1fb" stroke-width="1.5"/>
-        <circle cx="47" cy="39" r="6" fill="#f2b84b" stroke="#e9f1fb" stroke-width="1.5"/>
-      </svg>
       <span>NCH-CHDS</span>
     </div>
   </div>
