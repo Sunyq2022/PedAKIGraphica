@@ -1,18 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 128" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 128" role="img" aria-labelledby="title desc">
   <title id="title">Children’s Health Data Science Team identity</title>
-  <desc id="desc">An abstract child-health data emblem paired with the full team name.</desc>
-  <g transform="translate(8 16)">
-    <rect x="4" y="4" width="88" height="88" rx="24" fill="#102238" stroke="#4b7aa6" stroke-width="3"/>
-    <path d="M25 30 L48 17 L71 30 L48 43 Z" fill="none" stroke="#69b7ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="25" cy="30" r="6" fill="#78d6a3" stroke="#e9f1fb" stroke-width="2"/>
-    <circle cx="48" cy="17" r="6" fill="#69b7ff" stroke="#e9f1fb" stroke-width="2"/>
-    <circle cx="71" cy="30" r="6" fill="#f2b84b" stroke="#e9f1fb" stroke-width="2"/>
-    <circle cx="48" cy="50" r="13" fill="none" stroke="#dcecff" stroke-width="3"/>
-    <path d="M25 79 C29 66 38 61 48 61 C58 61 67 66 71 79" fill="none" stroke="#78d6a3" stroke-width="4" stroke-linecap="round"/>
-    <path d="M48 73 C44 68 37 71 39 76 C41 80 48 84 48 84 C48 84 55 80 57 76 C59 71 52 68 48 73 Z" fill="none" stroke="#f2b84b" stroke-width="2.2" stroke-linejoin="round"/>
-  </g>
-  <g font-family="Arial, Helvetica, sans-serif" fill="#e9f1fb">
-    <text x="124" y="55" font-size="25" font-weight="700">Children’s Health Data Science Team</text>
-    <text x="124" y="86" font-size="21" fill="#a9bad0">Children’s Hospital of Nanjing Medical University</text>
+  <desc id="desc">A child-health data constellation paired with the full team and institution name.</desc>
+  <defs>
+    <linearGradient id="field" x1="18" y1="14" x2="78" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fcff"/>
+      <stop offset="1" stop-color="#e8f5f3"/>
+    </linearGradient>
+    <g id="emblem">
+      <circle cx="48" cy="48" r="43" fill="url(#field)" stroke="#17324d" stroke-width="2.5"/>
+      <path d="M24 31 L48 16 L72 31" fill="none" stroke="#277d8c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M48 16 L48 34 M24 31 L36 39 M72 31 L60 39" fill="none" stroke="#78aeb7" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="24" cy="31" r="5" fill="#277d8c"/>
+      <circle cx="48" cy="16" r="5" fill="#17324d"/>
+      <circle cx="72" cy="31" r="5" fill="#d27c64"/>
+      <circle cx="48" cy="47" r="11.5" fill="#fff" stroke="#17324d" stroke-width="2.5"/>
+      <path d="M27 76 C29 64 37 58 48 58 C59 58 67 64 69 76" fill="#dff1ed" stroke="#17324d" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M48 65.5 C45.3 61.8 40.3 63.1 41 67.1 C41.5 70.2 48 73.2 48 73.2 C48 73.2 54.5 70.2 55 67.1 C55.7 63.1 50.7 61.8 48 65.5 Z" fill="none" stroke="#d27c64" stroke-width="1.8" stroke-linejoin="round"/>
+    </g>
+  </defs>
+  <use href="#emblem" x="8" y="16"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="126" y="53" font-size="26" font-weight="700" fill="#17324d">Children’s Health Data Science Team</text>
+    <text x="126" y="84" font-size="21" fill="#277d8c">Children’s Hospital of Nanjing Medical University</text>
   </g>
 </svg>
