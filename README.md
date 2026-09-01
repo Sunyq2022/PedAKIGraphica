@@ -4,9 +4,9 @@ Public release package for the PedAKI-Graphica computational evidence-resource s
 
 Interactive knowledge-graph browser: **[https://sunyq2022.github.io/PedAKIGraphica/](https://sunyq2022.github.io/PedAKIGraphica/)**
 
-The browser presents the 225-relation review-adjudicated construction graph among 34 entities. This is a
-machine-adjudicated intermediate graph; it is not a clinically validated knowledge base, does not represent
-named-expert signed validation, and must not be interpreted as a causal model or clinical decision-support system.
+The browser presents a 225-relation pediatric AKI evidence graph among 34 entities. It preserves source-linked
+provenance and review metadata for evidence navigation and retrieval-method research; it must not be interpreted as
+a causal model or clinical decision-support system.
 The public payload excludes full-text passages, full source files, and patient-level data.
 
 ## Team identity
@@ -27,7 +27,6 @@ identity mark, not a clinical validation or diagnostic symbol.
 - `branding/`: local editable SVG identity assets for the team emblem, abbreviation, and full-name lockup.
 - `data/`: public relation metadata, analysis tables, supplementary tables, and current release state.
 - `figures/`: publication and supplementary figure assets for this release.
-- `code/`: reproducibility and publication scripts for the current release line.
 - `research/PEDAKI_V8_RELEASE_20260831/`: deterministic browser-payload builder.
 
 ## Rebuild the browser payload

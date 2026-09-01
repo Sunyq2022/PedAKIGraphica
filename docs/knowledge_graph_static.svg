@@ -2662,7 +2662,7 @@ z
     <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #20252b" x="50.429974" y="25.214348" transform="rotate(-0 50.429974 25.214348)">Pediatric AKI evidence knowledge graph</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: start; fill: #59636d" x="50.429974" y="40.680164" transform="rotate(-0 50.429974 40.680164)">V8 review-adjudicated construction graph · 225 directed SROs · 34 entities · 10 predicates</text>
+    <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: start; fill: #59636d" x="50.429974" y="40.680164" transform="rotate(-0 50.429974 40.680164)">Pediatric AKI evidence graph · 225 directed SROs · 34 entities · 10 predicates</text>
    </g>
    <g id="text_4">
     <text style="font-size: 7.1px; font-family: 'Arial'; text-anchor: start; fill: #59636d" x="50.429974" y="55.118958" transform="rotate(-0 50.429974 55.118958)">Node colour = clinical domain · node size = undirected degree · edge width = independent-source support · arrow = relation direction</text>

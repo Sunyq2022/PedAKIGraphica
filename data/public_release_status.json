@@ -1,6 +1,6 @@
 {
   "release": "current publication release",
-  "graph_scope": "review-adjudicated construction graph",
+  "graph_scope": "pediatric AKI evidence graph",
   "construction_relations": 225,
   "entities": 34,
   "predicates": 10,
@@ -11,5 +11,5 @@
   "clinical_validation_claimed": false,
   "patient_level_data": false,
   "full_text_redistribution": false,
-  "release_boundary": "machine-adjudicated intermediate evidence-resource graph"
+  "release_boundary": "source-linked public evidence graph with restricted raw and patient-level data excluded"
 }

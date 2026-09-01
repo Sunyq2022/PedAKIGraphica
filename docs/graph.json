@@ -1,7 +1,7 @@
 {
-  "release": "PedAKIGraphica public review-adjudicated intermediate graph",
-  "scope": "225 construction relations among 34 entities",
-  "status": "machine_adjudicated_intermediate_not_clinically_validated",
+  "release": "PedAKIGraphica pediatric AKI evidence graph",
+  "scope": "225 relations among 34 entities",
+  "status": "public_evidence_graph",
   "source_text_policy": "full text and evidence-window text excluded from this public browser payload",
   "nodes": [
     {

@@ -49,9 +49,9 @@ def build() -> dict[str, object]:
     edges.sort(key=lambda item: item["id"])
     ordered_nodes = sorted(nodes.values(), key=lambda item: item["id"])
     payload = {
-        "release": "PedAKIGraphica public review-adjudicated intermediate graph",
-        "scope": "225 construction relations among 34 entities",
-        "status": "machine_adjudicated_intermediate_not_clinically_validated",
+        "release": "PedAKIGraphica pediatric AKI evidence graph",
+        "scope": "225 relations among 34 entities",
+        "status": "public_evidence_graph",
         "source_text_policy": "full text and evidence-window text excluded from this public browser payload",
         "nodes": ordered_nodes,
         "edges": edges,

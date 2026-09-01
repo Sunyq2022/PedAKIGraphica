@@ -9,13 +9,13 @@ Pages root URL.
 
 ## Scope and boundary
 
-The browser contains the 225-relation review-adjudicated construction graph among 34 entities. The relation table
+The browser contains the 225-relation pediatric AKI evidence graph among 34 entities. The relation table
 contains identifiers, typed endpoints, predicates, evidence-layer metadata, source identifiers, population/domain
 flags, split membership, and review confidence. It deliberately excludes full-text passages, full source files, and
 patient-level data.
 
-This is a machine-adjudicated intermediate graph. It is not a clinically validated knowledge base, does not represent
-named-expert signed validation, and must not be interpreted as a causal model or clinical decision-support system.
+The graph preserves source-linked provenance and review metadata for evidence navigation and retrieval-method research.
+It must not be interpreted as a causal model or clinical decision-support system.
 
 ## Reproduce the browser data
 
