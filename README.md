@@ -1,10 +1,12 @@
-# PedAKIGraphica
+# PedAKI-CARE Graph
 
-PedAKIGraphica is a population- and care-setting-aware evidence graph for pediatric acute kidney injury research.
+**PedAKI-CARE** is the **Pediatric Acute Kidney Injury Contextual Applicability and Retrievable Evidence Graph**. It represents source provenance, population and care-setting context as explicit graph structure for pediatric AKI evidence retrieval.
+
+The graph is developed within the PedAKI-Graphica research framework. Its retrieval study combines hybrid textual relevance with graph-derived provenance and population–setting applicability priors; the public browser exposes the graph rather than a clinical question-answering system.
 
 Interactive knowledge-graph browser: **[https://sunyq2022.github.io/PedAKIGraphica/](https://sunyq2022.github.io/PedAKIGraphica/)**
 
-The current public browser presents an aggregated, source-linked view derived from 11,252 contract-validated evidence
+The current public browser presents an aggregated, source-linked PedAKI-CARE view derived from 11,252 contract-validated evidence
 assertions across 3,115 source records. The underlying study governed 30,094 usable abstracts and maintains guideline,
 empirical-literature and terminology layers as distinct evidence roles. The browser highlights clinical concepts,
 populations, care settings, controlled relations and a non-interpretive guideline index.

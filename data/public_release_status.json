@@ -1,6 +1,8 @@
 {
-  "release": "current public graph release",
-  "graph_scope": "population- and care-setting-aware pediatric AKI evidence graph",
+  "release": "PedAKI-CARE Graph",
+  "expanded_name": "Pediatric Acute Kidney Injury Contextual Applicability and Retrievable Evidence Graph",
+  "research_framework": "PedAKI-Graphica",
+  "graph_scope": "provenance-linked, population- and care-setting-aware pediatric AKI evidence graph",
   "release_date": "2026-09-03",
   "candidate_source_universe": 72750,
   "usable_abstracts_governed": 30094,

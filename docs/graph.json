@@ -1,5 +1,7 @@
 {
-  "release": "PedAKIGraphica population- and care-setting-aware evidence graph",
+  "release": "PedAKI-CARE Graph",
+  "expanded_name": "Pediatric Acute Kidney Injury Contextual Applicability and Retrievable Evidence Graph",
+  "research_framework": "PedAKI-Graphica",
   "release_date": "2026-09-03",
   "status": "development_stage_computational_evidence_graph",
   "candidate_source_universe": 72750,
