@@ -1,0 +1,20 @@
+{
+  "release": "PedAKIGraphica population- and care-setting-aware evidence graph",
+  "release_date": "2026-09-03",
+  "status": "development_stage_computational_evidence_graph",
+  "candidate_source_universe": 72750,
+  "usable_abstracts_governed": 30094,
+  "retrieval_corpus_sources": 4824,
+  "contract_validated_assertions": 11252,
+  "assertion_source_records": 3115,
+  "main_guideline_sources": 15,
+  "indexed_normative_snippets": 159,
+  "public_concept_limit": 180,
+  "public_summary_nodes": 203,
+  "public_aggregated_relations": 1222,
+  "source_text_policy": "Abstract passages, full text, guideline passages, local paths and model raw output are excluded from the public payload.",
+  "validation_boundary": "Contract validation checks structure, source identity and verbatim source-window matching; it is not expert or clinical validation.",
+  "clinical_validation_claimed": false,
+  "patient_level_data": false,
+  "full_text_redistribution": false
+}

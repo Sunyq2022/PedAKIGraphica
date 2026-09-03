@@ -1,0 +1,13 @@
+# Local legacy release materials retained outside the current public release.
+/research/PEDAKI_V8_RELEASE_20260831/
+/figures/
+/data/analysis_tables/
+/data/supplementary_tables/
+/requirements-publication.txt
+
+# Local browser-render QA artifact.
+/docs/site_preview.png
+/docs/static_preview.png
+
+__pycache__/
+*.pyc

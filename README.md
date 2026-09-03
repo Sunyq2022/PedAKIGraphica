@@ -1,13 +1,18 @@
 # PedAKIGraphica
 
-Public release package for the PedAKI-Graphica computational evidence-resource study.
+PedAKIGraphica is a population- and care-setting-aware evidence graph for pediatric acute kidney injury research.
 
 Interactive knowledge-graph browser: **[https://sunyq2022.github.io/PedAKIGraphica/](https://sunyq2022.github.io/PedAKIGraphica/)**
 
-The browser presents a 225-relation pediatric AKI evidence graph among 34 entities. It preserves source-linked
-provenance and review metadata for evidence navigation and retrieval-method research; it must not be interpreted as
-a causal model or clinical decision-support system.
-The public payload excludes full-text passages, full source files, and patient-level data.
+The current public browser presents an aggregated, source-linked view derived from 11,252 contract-validated evidence
+assertions across 3,115 source records. The underlying study governed 30,094 usable abstracts and maintains guideline,
+empirical-literature and terminology layers as distinct evidence roles. The browser highlights clinical concepts,
+populations, care settings, controlled relations and a non-interpretive guideline index.
+
+This is a development-stage computational research resource. Contract validation confirms structural and source-window
+consistency; it does not constitute expert review, clinical validation, causal evidence or clinical decision support.
+The public payload excludes abstract passages, full text, guideline passages, local paths, model raw outputs and
+patient-level data.
 
 ## Team identity
 
@@ -21,19 +26,19 @@ This resource is developed by the **Children’s Health Data Science Team, Child
 The browser uses an inline three-node emblem to represent children’s health, data, and science. It is a team/resource
 identity mark, not a clinical validation or diagnostic symbol.
 
-## Contents
+## Public-release contents
 
 - `docs/`: self-contained GitHub Pages browser at the repository root and a static fallback network figure.
 - `branding/`: local editable SVG identity assets for the team emblem, abbreviation, and full-name lockup.
-- `data/`: public relation metadata, analysis tables, supplementary tables, and current release state.
-- `figures/`: publication and supplementary figure assets for this release.
-- `research/PEDAKI_V8_RELEASE_20260831/`: deterministic browser-payload builder.
+- `data/public_release_status.json`: machine-readable scope and scientific boundaries.
+- `research/PEDAKI_CURRENT_RELEASE/data/public_edges.csv`: aggregated public edge table.
+- `research/PEDAKI_CURRENT_RELEASE/`: deterministic preparation and browser-payload builders.
 
 ## Rebuild the browser payload
 
 ```text
-python research/PEDAKI_V8_RELEASE_20260831/build_public_graph.py
+python research/PEDAKI_CURRENT_RELEASE/build_public_graph.py
 ```
 
-The repository license and immutable archive/DOI remain author-controlled release actions. Until author approval, do
-not infer a reuse license from the public visibility of this repository.
+The repository license and immutable archive/DOI remain author-controlled release actions. Public visibility alone
+does not grant a reuse license.
