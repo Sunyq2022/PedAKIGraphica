@@ -82,7 +82,7 @@ def write_static_svg(payload: dict) -> None:
         '<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920">',
         '<rect width="1400" height="920" fill="#0b1220"/>',
         '<text x="44" y="54" fill="#f4f8ff" font-family="Arial" font-size="30" font-weight="700">PedAKI-CARE evidence network</text>',
-        '<text x="44" y="82" fill="#a9bad0" font-family="Arial" font-size="15">Contextual applicability and retrievable evidence graph; source text excluded</text>',
+        '<text x="44" y="82" fill="#a9bad0" font-family="Arial" font-size="15">Context-aware retrieval of evidence; source text excluded</text>',
     ]
     for edge in edges:
         x1, y1 = positions[edge["source"]]

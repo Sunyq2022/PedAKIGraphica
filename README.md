@@ -1,6 +1,6 @@
 # PedAKI-CARE Graph
 
-**PedAKI-CARE** is the **Pediatric Acute Kidney Injury Contextual Applicability and Retrievable Evidence Graph**. It represents source provenance, population and care-setting context as explicit graph structure for pediatric AKI evidence retrieval.
+**PedAKI-CARE** denotes **Context-Aware Retrieval of Evidence for Pediatric Acute Kidney Injury**. The PedAKI-CARE Graph represents source provenance, population and care-setting context as explicit graph structure for pediatric AKI evidence retrieval.
 
 The graph is developed within the PedAKI-Graphica research framework. Its retrieval study combines hybrid textual relevance with graph-derived provenance and population–setting applicability priors; the public browser exposes the graph rather than a clinical question-answering system.
 
